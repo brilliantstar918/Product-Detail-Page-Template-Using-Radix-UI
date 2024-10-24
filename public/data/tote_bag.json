@@ -1,0 +1,96 @@
+{
+  "name": "Tote Bag",
+  "description": "This clever tote bag is a workday wonder, with intuitive organization for your laptop, work tools and daily essentials.",
+  "sizes": {
+    "15L": {
+      "price": "$169",
+      "colors": {
+        "Deep Plum": [
+          "/thumbnails/Tote bag/15L/Deep Plum/01.png",
+          "/thumbnails/Tote bag/15L/Deep Plum/02.png",
+          "/thumbnails/Tote bag/15L/Deep Plum/03.png",
+          "/thumbnails/Tote bag/15L/Deep Plum/04.png",
+          "/thumbnails/Tote bag/15L/Deep Plum/05.png",
+          "/thumbnails/Tote bag/15L/Deep Plum/06.png",
+          "/thumbnails/Tote bag/15L/Deep Plum/07.png",
+          "/thumbnails/Tote bag/15L/Deep Plum/08.png",
+          "/thumbnails/Tote bag/15L/Deep Plum/09.png",
+          "/thumbnails/Tote bag/15L/Deep Plum/10.png",
+          "/thumbnails/Tote bag/15L/Deep Plum/11.png",
+          "/thumbnails/Tote bag/15L/Deep Plum/12.png"
+        ],
+        "Storm Gray": [
+          "/thumbnails/Tote bag/15L/Storm Gray/01.png",
+          "/thumbnails/Tote bag/15L/Storm Gray/02.png",
+          "/thumbnails/Tote bag/15L/Storm Gray/03.png",
+          "/thumbnails/Tote bag/15L/Storm Gray/04.png",
+          "/thumbnails/Tote bag/15L/Storm Gray/05.png",
+          "/thumbnails/Tote bag/15L/Storm Gray/06.png",
+          "/thumbnails/Tote bag/15L/Storm Gray/07.png",
+          "/thumbnails/Tote bag/15L/Storm Gray/08.png",
+          "/thumbnails/Tote bag/15L/Storm Gray/09.png",
+          "/thumbnails/Tote bag/15L/Storm Gray/10.png"
+        ],
+        "Raven": [
+          "/thumbnails/Tote bag/15L/Raven/01.png",
+          "/thumbnails/Tote bag/15L/Raven/02.png",
+          "/thumbnails/Tote bag/15L/Raven/03.png",
+          "/thumbnails/Tote bag/15L/Raven/04.png",
+          "/thumbnails/Tote bag/15L/Raven/05.png",
+          "/thumbnails/Tote bag/15L/Raven/06.png",
+          "/thumbnails/Tote bag/15L/Raven/07.png",
+          "/thumbnails/Tote bag/15L/Raven/08.png",
+          "/thumbnails/Tote bag/15L/Raven/09.png",
+          "/thumbnails/Tote bag/15L/Raven/10.png",
+          "/thumbnails/Tote bag/15L/Raven/11.png",
+          "/thumbnails/Tote bag/15L/Raven/12.png"
+        ]
+      }
+    },
+    "12L": {
+      "price": "$149",
+      "colors": {
+        "Deep Plum": [
+          "/thumbnails/Tote bag/15L/Deep Plum/01.png",
+          "/thumbnails/Tote bag/15L/Deep Plum/02.png",
+          "/thumbnails/Tote bag/15L/Deep Plum/03.png",
+          "/thumbnails/Tote bag/15L/Deep Plum/04.png",
+          "/thumbnails/Tote bag/15L/Deep Plum/05.png",
+          "/thumbnails/Tote bag/15L/Deep Plum/06.png",
+          "/thumbnails/Tote bag/15L/Deep Plum/07.png",
+          "/thumbnails/Tote bag/15L/Deep Plum/08.png",
+          "/thumbnails/Tote bag/15L/Deep Plum/09.png",
+          "/thumbnails/Tote bag/15L/Deep Plum/10.png",
+          "/thumbnails/Tote bag/15L/Deep Plum/11.png",
+          "/thumbnails/Tote bag/15L/Deep Plum/12.png"
+        ],
+        "Storm Gray": [
+          "/thumbnails/Tote bag/15L/Storm Gray/01.png",
+          "/thumbnails/Tote bag/15L/Storm Gray/02.png",
+          "/thumbnails/Tote bag/15L/Storm Gray/03.png",
+          "/thumbnails/Tote bag/15L/Storm Gray/04.png",
+          "/thumbnails/Tote bag/15L/Storm Gray/05.png",
+          "/thumbnails/Tote bag/15L/Storm Gray/06.png",
+          "/thumbnails/Tote bag/15L/Storm Gray/07.png",
+          "/thumbnails/Tote bag/15L/Storm Gray/08.png",
+          "/thumbnails/Tote bag/15L/Storm Gray/09.png",
+          "/thumbnails/Tote bag/15L/Storm Gray/10.png"
+        ]
+      }
+    }
+  },
+  "features": [
+    "Padded laptop sleeve protects devices up to 16'",
+    "Full-length zip closure",
+    "Dual-section front pocket with internal organization",
+    "Rear document slip pocket with button closure",
+    "Internal vertical sleeve pockets for bottles/umbrellas",
+    "Stretch mesh zip pocket for valuables",
+    "Trolley/luggage pass-through",
+    "Soft-edge webbing handles with underside grip",
+    "Built-in key clip",
+    "Backed by our 3-year warranty",
+    "Main material: Baida Ripstop",
+    "Internal Apple AirTag slip pocket – find out more"
+  ]
+}

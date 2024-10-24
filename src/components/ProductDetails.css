@@ -1,0 +1,228 @@
+/* Product Details Layout */
+.product-details-container {
+  display: flex;
+  gap: 50px;
+  padding: 50px;
+  max-width: 1200px;
+  margin: auto;
+  align-items: flex-start;
+}
+
+/* Image Gallery */
+.image-gallery {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-image-container {
+  width: 100%;
+  max-width: 700px;
+  margin-bottom: 15px;
+}
+
+.main-image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.thumbnail-container {
+  display: flex;
+  gap: 10px;
+  max-width: 600px;
+  overflow: hidden; /* Hide overflow by default */
+  margin-top: 10px;
+}
+
+/* Add scrollbar when thumbnails exceed limit */
+.thumbnail-container.scrollable {
+  overflow-x: auto; /* Enable horizontal scrolling */
+  scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+.thumbnail-container::-webkit-scrollbar {
+  height: 8px; /* Horizontal scrollbar height */
+}
+
+.thumbnail-container::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 4px;
+}
+
+.thumbnail-container::-webkit-scrollbar-thumb:hover {
+  background-color: #aaa;
+}
+
+.thumbnail {
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+  cursor: pointer;
+  object-fit: cover;
+  transition: border 0.3s, transform 0.2s;
+}
+
+.thumbnail.active {
+  border: 1px solid #ff6f00;
+  transform: scale(1.1);
+}
+
+/* Product Information */
+.product-info {
+  width: 30%;
+}
+
+.product-name {
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.product-price {
+  font-size: 24px;
+  color: #ff6f00;
+  margin: 10px 0;
+  text-align: left;
+}
+
+.product-description {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* Selectors for Size and Color */
+.selector-group {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+
+.selector {
+  text-align: left;
+}
+
+.selector label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.SelectTrigger {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.SelectContent {
+  background-color: #ddd;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+}
+
+.color-options {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* Add to Cart Button */
+.add-to-cart-button {
+  width: 100%;
+  background-color: #ff6f00;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.add-to-cart-button:hover {
+  background-color: #e65c00;
+}
+
+/* Product Features */
+.features-heading {
+  font-size: 18px;
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.feature-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.feature-list.collapsed {
+  max-height: 200px; /* Adjust to your desired collapsed height */
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.feature-list.expanded {
+  max-height: none; /* Adjust to fit the entire list */
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Fading overlay effect */
+.fade-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), white);
+  pointer-events: none; /* Allow interaction with content */
+}
+
+.toggle-button {
+  background-color: transparent;
+  color: #ff6f00;
+  border: solid 1px #ff6f00;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+  transition: background-color 0.2s;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .product-details-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-gallery {
+    width: 100%;
+  }
+
+  .product-info {
+    width: 100%;
+  }
+}
